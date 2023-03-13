@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--html 자동완성 = ! + TAB-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 강의</title>
+    <!-- CSS는 헤더에 링크 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 주석 자동완성 = ctrl + / -->
+    <!-- 메뉴 영역 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Web Demo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="project.html">Project</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인 섹션 -->
+    <!-- class 이름 자동완성 = div + . + 클래스 이름 + 엔터 -->
+    <section class="main">
+      <div class="container">
+        <h1>웹 프로그래밍 - Web Programming</h1>
+
+        <h3>
+          웹 개발자를 위한 온라인 메뉴얼 :
+          <a href="https://www.w3schools.com/"
+            >w3schools : 웹 프로그래밍 메뉴얼</a
+          >
+        </h3>
+
+        <p>
+          웹 프로그래밍의 3가지 요소 :
+          <a href="https://www.w3schools.com/html/default.asp">HTML</a> |
+          <a href="https://www.w3schools.com/css/default.asp">CSS</a> |
+          <a href="https://www.w3schools.com/js/default.asp">Javascript</a>
+        </p>
+
+        <p>현재시간 : <span id="time"></span></p>
+        <!-- <hr />이나 <br />처럼 한 태그 안에 열고 닫는 기능이 모두 있을 수도 있음 (안에 담을 내용이 없어서) -->
+        <hr />
+
+        <p>
+          배경색 바꾸기 :
+          <button onclick="pink()">Pink</button>
+          <button>Blue</button>
+          <button>Yellow</button>
+          <button>Reset</button>
+        </p>
+
+        <p>
+          배워봅시다 :
+          <button onmouseover="showHTML()" onmouseout="hide()">HTML5</button>
+          <button onmouseover="showCSS()" onmouseout="hide()">CSS3</button>
+          <button onmouseover="showJS()" onmouseout="hide()">Javascript</button>
+        </p>
+        <hr />
+        <br />
+        <div>
+          <img id="fig" height="200px" />
+          <p id="desc"></p>
+        </div>
+      </div>
+    </section>
+    <!-- 스크립트는 바디 맨 끝쪽에 -->
+    <script src="main.js"></script>
+  </body>
+</html>
