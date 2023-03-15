@@ -1,0 +1,49 @@
+
+var ftGUID_6419363="518875DDD729FD";
+var ftConfID_6419363="0";
+var ftParams_6419363="ftOBA=1&ft_domain=jjeongil.tistory.com&ft_ifb=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fjjeongil.tistory.com%2F1195&us_privacy=${US_PRIVACY}&cachebuster=957249.1843238815&ft_dv=%5B%25ft_dv%25%5D";
+var ftKeyword_6419363="";
+var ftCustom_6419363="";
+var ftSection_6419363="";
+var ftSegment_6419363="aixk,aiyn,ajjo,ajwn,ajv0,akc1";
+var ftSegmentList_6419363=[{s:'aixk'},{s:'aiyn'},{s:'ajjo'},{s:'ajwn'},{s:'ajv0'},{s:'akc1'}];
+var ftRuleMatch_6419363="0";
+var ftTimestamp_6419363="1678896050";
+var ftGeoC2_6419363="kr";
+var ftGeoState_6419363="41";
+var ftGeoCity_6419363="pung-dong";
+var ftISP_6419363="lg powercomm";
+var ftSpeed_6419363="broadband";
+var ftConnType_6419363="wifi";
+var ftDMA_6419363="410094";
+var ftLong_6419363="126.8";
+var ftLat_6419363="37.67";
+var ftPostal_6419363="10303";
+var ftTimeZone_6419363="+900";
+var ftMobileCarrier_6419363="";
+var ftImp6419363 = {};
+ftImp6419363.privacy = "x";
+ftImp6419363.guidAge = "364";
+ftImp6419363.impID = "FE34A211-1AE4-AFE5-F1B3-CB7D7C81A7E4";
+ftImp6419363.duid = "FT:518875DDD729FD";
+
+ftImp6419363.ft_tpplid = "";
+ftImp6419363.ft_c = {};
+ftImp6419363.gdpr = "";
+ftImp6419363.gdpr_consent = "";
+ftImp6419363.gdpr_pd = "";
+ftImp6419363.oob_consent = "";
+ftImp6419363.gdprStoredConsent = "";
+ftImp6419363.us_privacy = "!!US_PRIVACY!";
+
+ftImp6419363.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_6419363') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/641/6419363/4175981/js/j-6419363-4175981.js";
+    js.id = "ftscript_m6419363";
+    tag.parentNode.insertBefore(js, tag);
+}());

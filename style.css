@@ -8,24 +8,52 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: black;
-  background: rgb(175, 142, 31);
+  background: rgb(195, 230, 210);
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
-  max-width: 1100;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 30px;
 }
 
 .main {
-  color: blue;
   line-height: 2.5;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
+.main .container h1 {
+  text-align: center;
+  border-style: dashed;
+  border-color: black;
+}
+.main .container a {
+  color: rgb(0, 0, 0);
+}
+
+.main .container ul {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(130, 130, 130);
+  padding: 5px;
+}
+
+.main .container ul li {
+  border: 2px snow;
+  border-radius: 3px;
+  background-color: snow;
+  margin: 4px;
+}
 .navbar {
   background-color: black;
   color: #fff;
@@ -34,8 +62,8 @@ ul {
 
 .navbar .container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
@@ -49,17 +77,30 @@ ul {
   margin-left: 30px;
 }
 
+.navbar ul li a {
+  color: #fff;
+}
+
+.logo {
+  font-weight: bold;
+}
+
 button {
   padding: 5px 10px;
   margin: 5px 10px;
   font-size: large;
   font-weight: bold;
-  background-color: aliceblue;
+  background-color: snow;
   border-radius: 5px;
   border-width: 0px;
 }
 
 button:hover {
-  color: greenyellow;
-  background-color: red;
+  color: snow;
+  background-color: black;
+}
+
+#fig {
+  display: flex;
+  flex-direction: center;
 }
