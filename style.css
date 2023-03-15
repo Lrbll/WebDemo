@@ -100,7 +100,18 @@ button:hover {
   background-color: black;
 }
 
-#fig {
-  display: flex;
-  flex-direction: center;
+.subject {
+  width: 210px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+  border-style: dashed;
+  border-width: 3px;
+}
+
+.btn_git {
+  display: block;
+  margin: auto;
 }
